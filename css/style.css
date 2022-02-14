@@ -1,0 +1,47 @@
+body {
+    font-family: arial;  
+    text-align: center;
+    background-color: teal;      
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.container {
+    margin: auto;
+    border: 10px black solid;
+    width: 600px;
+    height: 600px;
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px; 
+    grid-template-rows: 200px 200px 200px;
+    background-color: white; 
+}
+
+.tiles {
+    font-size: 150px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button {
+    margin-top: -10px;
+    width: 620px;
+    height: 50px;
+    border: 10px black solid;
+    font-family: arial;
+    font-size: 20px;
+    letter-spacing: 4px;
+    cursor: pointer;
+  }
+
+
+
+
+
+  
